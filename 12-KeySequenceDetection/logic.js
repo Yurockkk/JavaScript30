@@ -1,6 +1,6 @@
 
-const pressed = [];
-const secretCode = 'wesbos';
+var pressed = [];
+const secretCode = 'bbabaArrowUpArrowDown';
 
 window.addEventListener('keyup', (e) => {
 
@@ -12,5 +12,6 @@ window.addEventListener('keyup', (e) => {
 	if(pressed.join('').includes(secretCode)){
 		console.log('DINGDING');
 		cornify_add();
+		pressed=[];
 	}
 })
