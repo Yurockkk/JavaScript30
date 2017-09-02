@@ -1,0 +1,14 @@
+{
+  "name": "yubo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logic.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, *.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5"
+  }
+}
